@@ -6,7 +6,8 @@
       "company": "TechCorpjj",
       "email": "harishsw@techcorp.com",
       "contact": "1234567890",
-      "designation": "SoftwareEngineer"
+      "designation": "SoftwareEngineer",
+      "avatar": "https://i.pravatar.cc/150?img=1"
     },
     {
       "id": "2",
@@ -14,15 +15,26 @@
       "company": "Innovatech",
       "email": "praveen@innovatech.com",
       "contact": "9876543210",
-      "designation": "UI/UXDesigner"
+      "designation": "UI/UXDesigner",
+      "avatar": "https://i.pravatar.cc/150?img=2"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Divya",
       "company": "akashtech",
       "email": "divyashree@gmail.com",
       "contact": 32145698,
-      "designation": "TraineeEngineer"
+      "designation": "TraineeEngineer",
+      "avatar": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": 0,
+      "name": "Pradeep",
+      "company": "Molecular Connections",
+      "email": "pradeepramj@gmail.com",
+      "contact": 8050919244,
+      "designation": "Sr Software Enginner",
+      "avatar": "https://i.pravatar.cc/150?img=61"
     }
   ]
 }

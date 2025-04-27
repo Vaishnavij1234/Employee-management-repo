@@ -5,5 +5,5 @@ company:string='';
 email:string='';
 contact:string='';
 designation:string='';
-
+avatar!: string; 
 }

@@ -45,13 +45,14 @@ this.getdata()
   edit(data:any) {
     this.showupdate = true;
     this.showadd = false;
-this.employeemodelobj.id = data.id;
+    this.employeemodelobj.id = data.id;
     this.formValue.controls['name'].setValue(data.name)
     this.formValue.controls['company'].setValue(data.company)
     this.formValue.controls['email'].setValue(data.email)
     this.formValue.controls['contact'].setValue(data.contact)
     this.formValue.controls['designation'].setValue(data.designation)
-    
+    this.formValue.controls['avatar'].setValue(data.avatar);  
+  
   }
 
   update(){
@@ -61,6 +62,9 @@ this.employeemodelobj.id = data.id;
     this.employeemodelobj.email = this.formValue.value.email;
     this.employeemodelobj.contact = this.formValue.value.contact;
     this.employeemodelobj.designation = this.formValue.value.designation;
+
+    this.employeemodelobj.avatar = this.formValue.value.avatar || `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`;
+
     
 this.formValue.reset();
 this.getdata();
@@ -79,7 +83,10 @@ this.getdata();
     this.employeemodelobj.email = this.formValue.value.email;
     this.employeemodelobj.contact = this.formValue.value.contact;
     this.employeemodelobj.designation = this.formValue.value.designation;
-    
+
+
+    this.employeemodelobj.avatar = `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`;
+
 
     this.api.postemployee(this.employeemodelobj).subscribe(res=>{
       console.log(res)
