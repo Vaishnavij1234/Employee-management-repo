@@ -1,0 +1,28 @@
+{
+  "employee": [
+    {
+      "id": "1",
+      "name": "Harish",
+      "company": "TechCorpjj",
+      "email": "harishsw@techcorp.com",
+      "contact": "1234567890",
+      "designation": "SoftwareEngineer"
+    },
+    {
+      "id": "2",
+      "name": "Prsveen",
+      "company": "Innovatech",
+      "email": "praveen@innovatech.com",
+      "contact": "9876543210",
+      "designation": "UI/UXDesigner"
+    },
+    {
+      "id": 3,
+      "name": "Divya",
+      "company": "akashtech",
+      "email": "divyashree@gmail.com",
+      "contact": 32145698,
+      "designation": "TraineeEngineer"
+    }
+  ]
+}
