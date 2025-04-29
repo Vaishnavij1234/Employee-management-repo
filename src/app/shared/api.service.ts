@@ -35,9 +35,8 @@ export class ApiService {
 
   // Delete
   deleteemployee(id: number) {
-    return this._http.delete<any>("https://employeesys-backend.onrender.com/employee" + id)
-      .pipe(map((res: any) => {
-        return res;
-      }));
+    return this._http.delete<any>(`https://employeesys-backend.onrender.com/employee/${id}`)
+      .pipe(map(res => res));
   }
+  
 }
