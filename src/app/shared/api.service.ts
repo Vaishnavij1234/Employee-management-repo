@@ -1,6 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { pipe } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Injectable({
@@ -8,43 +7,37 @@ import { map } from 'rxjs/operators';
 })
 export class ApiService {
 
-  constructor(private _http:HttpClient) { }
+  constructor(private _http: HttpClient) { }
 
+  // Post
+  postemployee(data: any) {
+    return this._http.post<any>("https://employeesys-backend.onrender.com/employee", data)
+      .pipe(map((res: any) => {
+        return res;
+      }));
+  }
 
-// post
-postemployee(data:any){
-  return this._http.post<any>("http://localhost:3000/employee",data)
-  .pipe(map((res:any)=>{
-    return res;
-  }))
+  // Get
+  getemployee() {
+    return this._http.get<any>("https://employeesys-backend.onrender.com/employee")
+      .pipe(map((res: any) => {
+        return res;
+      }));
+  }
+
+  // Update
+  updateemployee(data: any, id: number) {
+    return this._http.put("https://employeesys-backend.onrender.com/employee" + id, data)
+      .pipe(map((res: any) => {
+        return res;
+      }));
+  }
+
+  // Delete
+  deleteemployee(id: number) {
+    return this._http.delete<any>("https://employeesys-backend.onrender.com/employee" + id)
+      .pipe(map((res: any) => {
+        return res;
+      }));
+  }
 }
-
-//To get the data
-getemployee(){
-  return this._http.get<any>("http://localhost:3000/employee")
-  .pipe(map((res:any)=>{
-    return res;
-  }))
-}
-
-//update
-updateemployee(data:any,id:number){
-  return this._http.put("http://localhost:3000/employee/"+id,data)
-  .pipe(map((res:any)=>{
-    return res;
-  }))
-}
-
-// delete
-deleteemployee(id:number){
-  return this._http.delete<any>("http://localhost:3000/employee/"+id)
-  .pipe(map((res:any)=>{
-    return res;
-  }))
-}
-
-
-}
-
- 
-

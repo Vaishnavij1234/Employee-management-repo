@@ -2,39 +2,48 @@
   "employee": [
     {
       "id": "1",
-      "name": "Harish",
-      "company": "TechCorpjj",
-      "email": "harishsw@techcorp.com",
-      "contact": "1234567890",
-      "designation": "SoftwareEngineer",
-      "avatar": "https://i.pravatar.cc/150?img=1"
-    },
-    {
-      "id": "2",
-      "name": "Prsveen",
-      "company": "Innovatech",
-      "email": "praveen@innovatech.com",
-      "contact": "9876543210",
-      "designation": "UI/UXDesigner",
-      "avatar": "https://i.pravatar.cc/150?img=2"
-    },
-    {
-      "id": "3",
-      "name": "Divya",
-      "company": "akashtech",
-      "email": "divyashree@gmail.com",
+      "name": "akashjk",
+      "company": "technoparkmmmmm",
+      "email": "akash@gmail.com",
       "contact": 32145698,
-      "designation": "TraineeEngineer",
-      "avatar": "https://i.pravatar.cc/150?img=3"
+      "designation": "software engineer",
+      "avatar": "https://i.pravatar.cc/150?img=41"
+    },
+    {
+      "id": "0",
+      "name": "Vaishnavi J",
+      "company": "Emassy techno",
+      "email": "vaish@gmail.com",
+      "contact": 78945612,
+      "designation": "junior Engineer",
+      "avatar": "https://i.pravatar.cc/150?img=16"
     },
     {
       "id": 0,
-      "name": "Pradeep",
-      "company": "Molecular Connections",
-      "email": "pradeepramj@gmail.com",
-      "contact": 8050919244,
-      "designation": "Sr Software Enginner",
-      "avatar": "https://i.pravatar.cc/150?img=61"
+      "name": "Vaishnavi J",
+      "company": "Emassy techno",
+      "email": "vaish@gmail.com",
+      "contact": 78945612,
+      "designation": "Engineer",
+      "avatar": "https://i.pravatar.cc/150?img=16"
+    },
+    {
+      "id": 0,
+      "name": "assa",
+      "company": "ascasbcjc",
+      "email": "jhajhs@gmail.com",
+      "contact": 12256345,
+      "designation": "asdas",
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 0,
+      "name": "vbnfkjb",
+      "company": "szdjkhfhh",
+      "email": "jhd@gmail.com",
+      "contact": 32145698,
+      "designation": "okasoid",
+      "avatar": "https://i.pravatar.cc/150?img=27"
     }
   ]
 }
